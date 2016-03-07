@@ -12,19 +12,15 @@
             android:name=".AndroidDW"
             android:label="@string/app_name">
 
-
-
-            <meta-data
-                android:name="com.baidu.lbsapi.API_KEY"
-                android:value="wGx9lSKSvhgVLeyNHld3w9GB" />
-
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="QmSyY8l1PZLtjcNyKhTnIHtN" />
     </application>
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
